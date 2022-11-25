@@ -2,7 +2,6 @@ html{
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }body{
-    background-color: #212020;
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
@@ -29,8 +28,14 @@ a{
     margin: 0 auto;
     position: relative;
 }
+span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #191918;
+}
 .header-section{
     position: relative;
+    background-color: #212020;
 }
 .topbar{
     width: 100%;
@@ -85,6 +90,7 @@ a{
 }
 .hero-section{
     height: 800px;
+    background-color: #212020;
     padding: 200px 5px 0px 50px;
     z-index: 980;
     
@@ -137,7 +143,7 @@ h1{
     height: 550px;
     padding-top: 80px;
     z-index: 960;
-    box-shadow: 0px 0px 25px #000;
+    box-shadow: 0px -15px 25px #000;
     
 }
 .recipe-content{
@@ -146,9 +152,9 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
-.recipe-heading{
+.section-heading{
     font-size: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .recipe-content{
     text-align: center;
@@ -161,4 +167,205 @@ h1{
     margin-top: 10px;
     font-size: 20px;
     font-weight: 400;
+}
+.about-blog-client-section{
+    background-image: url("../images/bg.jpg");
+    color: #000;
+}
+.heading-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+    width: 55%;
+}
+.about-conent{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 75px;
+    height: 700px;
+}
+.best-food-content{
+    background-color: #191918;
+    width: 100%;
+    height: 480px;
+    margin-right: 10px;
+}
+.best-food-card{
+    color: #fff;
+    margin: 50px 35px 0px 35px;
+    text-align: justify;
+
+}
+.best-food-card span{
+    color: #fff;
+}
+.best-food-title{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.best-food-title-description{
+    font-size: 17px;
+    line-height: 28px;
+    text-align: justify;
+}
+.read-more{
+    padding-top: 15px;
+    font-size: 22px;
+}
+.read-more a:hover{   
+    color: #E67525;
+}
+.food-image-card{
+    width: 100%;
+}
+.about-image-card{
+    width: 450px;
+    margin-left: 15px;
+}
+.food-image{
+    background-color: #E67525;
+    margin-top: 115px;
+    height: 480px;
+}
+.food-image img{
+    margin-top: 90px;
+    width: 100%;
+    margin-left: 90px;
+}
+.blog-content{
+    display: flex;
+}
+.card{
+    border: solid 1px #000;
+    margin: 50px 10px 0px 10px;
+}
+.card-image{
+    box-shadow: 0px 0px 3px #000;
+}
+.card-info{
+    padding: 40px 15px 25px 15px;
+    color: #373535;
+    text-align: justify;
+}
+.card-title{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.client-card{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    background-color: #212020;
+    border-radius: 30px;
+}
+.card-image2{
+    padding-top: 60px;
+}
+.card-info{
+    text-align: center;
+}
+.client-card-info h4
+{
+    color: #fff;
+}
+.client-card-info span
+{
+    color: #fff;
+}
+.client-icon{
+    margin-bottom: 20px;
+}
+.contact-section{
+    height: 700px;
+    background-color: #E67525;
+}
+.request-call-content{
+    margin-top: 80px;
+    display: flex;
+    padding-top: 100px;
+    justify-content: flex-end;
+}
+.contact{
+    width: 40%;
+    margin-right: 30px;
+}
+.contact-heading {
+    color: #000;
+}
+.section-heading span{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+}
+.input-box{
+    margin: 10px 0px;
+    height: 60px;
+    padding: 10px 0px 10px 30px;
+    font-size: 18px;
+}
+.text-box{
+    height: 100px;
+}
+.submit-btn{
+   width: 30%;
+   padding: 20px;
+   font-size: 18px;
+   margin-top: 15px;
+}
+.submit-btn:hover{
+    background-color: #116041;
+    color: #fff;
+    border: solid #116041 1px;
+
+}
+.contact-image{
+    width: 50%;
+    padding-top: 80px;
+}
+.contact-image img{
+    width: 100%;
+}
+.logo-row{
+    text-align: center;
+}
+.logo-row img{
+    width: 200px;
+}
+footer{
+    background-color: #E67525;
+}
+.footer-logo{
+    background-color: #000;
+}
+.navbar{
+    width: 45%;
+    text-align: center;
+}
+nav{
+    display: flex;
+    text-align: center;
+}
+nav li{
+    padding: 35px 25px;
+}
+nav li a{
+    color: #000;
+    font-size: 20px;
+}
+.active{
+    color: #fff;
+}
+nav li a:hover{
+    color: #fff;
+}
+.credit{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
 }
